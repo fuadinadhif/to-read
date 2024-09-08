@@ -1,0 +1,5 @@
+{
+  "ext": "js,ts,yaml",
+  "watch": ["src", "api-docs.yaml"],
+  "exec": "ts-node src/docs/swagger.ts && ts-node src/index.ts"
+}
